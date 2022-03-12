@@ -34,7 +34,7 @@
         """
     }
     stage("Clone repo") {
-     sh "cd /var/jenkins_home/ &amp;&amp; git clone https://github.com/chinastockproducts/app.git"
+     sh "cd /var/jenkins_home/ &amp;&amp; git clone https://github.com/bhagirathcloud/app.git"
     }
     stage("Deploy GOAPP") {
         sh """
