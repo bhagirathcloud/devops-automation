@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka and welcome you to SRE classes'
+                     echo 'Hi, this is bhagi from edureka and welcome you to SRE classes'
                  }
                  }
                  stage('Two') {
